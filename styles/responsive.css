@@ -1,0 +1,57 @@
+@media screen and (max-width:800px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+      }
+    .Picture{
+        display: flex;
+        flex-direction: column;
+     }
+     .picture-2{
+        padding-left: 0px;
+        
+      }
+      .main-style{
+        display: flex;
+        flex-wrap: wrap;
+        color: rgba(255, 255, 255, 0.5);
+        align-items: center;
+        text-align: center; 
+        margin-top: 10;
+        font-size: 14px;
+      
+      img{
+          border-radius: 50%;
+      
+      }
+      }
+      .Division-3{
+        width: 335px;
+        height: 100%;
+        flex-direction: column ;
+        gap: 5px;
+        padding: 33px;
+      }
+      .Heading-4{
+       
+        Font-size: 32px;
+        
+      }
+      .bmi-calculator-container {
+        Width:394px;
+        Height:772px;
+        flex-direction: column;
+
+      }
+      .omega{ 
+   
+  
+        grid-column: 1/3 span;
+        border-radius: 15px; 
+       
+         }
+    
+}
+@media screen and (max-width:500px){
+
+}
